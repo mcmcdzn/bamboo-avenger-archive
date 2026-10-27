@@ -1,0 +1,6 @@
+Fonts in this folder are distributed under the SIL Open Font License 1.1 (https://openfontlicense.org):
+- Cormorant Garamond (c) Christian Thalmann
+- EB Garamond (c) Georg Duffner, Octavio Pardo
+- Courier Prime (c) Quote-Unquote Apps
+- Noto Serif JP / Noto Serif CJK (c) Google LLC, Adobe — subset to the ten characters used on this site
+Web font files sourced from the Fontsource project (https://fontsource.org).
