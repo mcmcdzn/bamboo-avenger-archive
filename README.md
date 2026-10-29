@@ -27,9 +27,18 @@ To preview locally: `python3 -m http.server` in this folder, then open http://lo
 | `green-vein.html` | The Green Vein Tradition |
 | `whispering-monks.html` | The Whispering Monks |
 | `evidence.html` | Evidence Vault — Artifacts A-17, B-03, C-11, D-04, E-09 and field notebooks |
-| `classified.html` | Classified Access — password-gated folios |
+| `classified.html` | Classified Access — password-gated folios that lead into Layer III |
+| `myth.html` | Myth Archive (Layer III) — origin narrative, the Last Survivor, reported capabilities, Whispering Monk teachings, Green Vein traditions. Not in the main navigation; reached from the home page, folklore pages, folios and footer |
 | `one-shadow.html` | Hidden page (not in the navigation; reached from the last folio) |
 | `404.html` | "No record." |
+
+## Three layers
+
+Every record page carries a layer marker (I · Archive / II · Folklore / III · Myth) beside its breadcrumb.
+
+- **Layer I · The Archive** — public record: Subject, Symbol 001, Incidents, Map, Evidence. Takes no position.
+- **Layer II · The Folklore** — Green Vein, Whispering Monks, Phrase 001. Scholarly and cautious.
+- **Layer III · The Myth** — `myth.html` and the restricted folios. Stories preserved as told, always labelled as unverified tradition.
 
 ## Classified access terms
 
@@ -37,10 +46,10 @@ Not case-sensitive. Each releases one folio.
 
 | Term | Folio |
 | --- | --- |
-| `mori` | I — Symbol 001 supplemental sheet (withheld occurrences) |
-| `greenvein` | II — Field log GV-17 (a walk along the Green Vein route) |
-| `reeds` | III — Interview transcript, W-0412, tape 2 side B |
-| `stillness` | IV — Folio 0, unindexed (links to `one-shadow.html`) |
+| `mori` | I — Symbol 001 supplemental sheet (withheld occurrences) → Forest Memory |
+| `greenvein` | II — Field log GV-17 (a walk along the Green Vein route) → Origin narrative |
+| `reeds` | III — Interview transcript, W-0412, tape 2 side B → Wind Through Reeds |
+| `stillness` | IV — Folio 0, unindexed → Bend. Listen. Act., and `one-shadow.html` |
 
 Folio contents are stored enciphered against their term in `js/folios.js`, so they do not appear in the page source. This is atmosphere, not security.
 
@@ -58,13 +67,14 @@ Folio contents are stored enciphered against their term in `js/folios.js`, so th
 └── assets/
     ├── images/                 crops of BambooAvengerV6.jpg (front, rear, staff, symbol, bridge, phrase, valley, outcrop) + mono prints
     ├── graphics/
-    │   ├── symbol/             analysis sheet + six specimens (S-01 to S-06)
+    │   ├── symbol/             analysis sheet, specimen overlay, field sketches, archive cards, six specimens
     │   ├── phrase/             transcription slip, torn fragment
     │   ├── evidence/           artifact plates A-17, B-03, C-11, D-04, E-09
     │   ├── notebooks/          field notebook pages 01–03
     │   ├── green-vein/         sketch map, profile diagram, descriptor tally
-    │   └── monks/              redacted memo, evidence board
-    ├── maps/ashland-field-map.svg
+    │   ├── monks/              redacted memo, evidence board, archive folder
+    │   └── myth/               folder F-3, bamboo botanical plate GV-7, teaching card
+    ├── maps/                 ashland-field-map.svg (Plate M-1), green-vein-theories.svg (Plate GV-3)
     ├── textures/               parchment, charcoal, forest tiles
     ├── fonts/                  Cormorant Garamond, EB Garamond, Courier Prime, Noto Serif JP subset (SIL OFL)
     └── favicon.svg
